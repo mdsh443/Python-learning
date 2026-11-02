@@ -15,5 +15,3 @@ fruit.insert(2, "lichi")                                    # insert "lichi"
 # fruit.sort()                                              # sort.() the list orderly
 # print(fruit.reverse(), fruit)                             # just reverse the list
 print(fruit)
-
-#P.3:
