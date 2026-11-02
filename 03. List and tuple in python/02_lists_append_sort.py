@@ -40,5 +40,5 @@ fruit = ["apple", "banana", "mango"]
 fruit.append("berry")
 fruit.sort(reverse=True)
 print(fruit) # output=> ['mango', 'berry', 'banana', 'apple'] because mango comes first
-             # the berry then banana, then apple.   
+             # the berry then banana, then apple.   [m, b, b, a]
 
