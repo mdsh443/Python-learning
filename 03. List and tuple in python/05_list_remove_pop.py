@@ -19,5 +19,4 @@ name1 = ["alice", "nawaz", "joshim", "rinthy", "adam"]
 # name1.remove("joshim")
 name1.pop(3)
 print(name1)
-
 # remove() deletes by value. pop() deletes by position and returns the deleted item.
