@@ -25,6 +25,6 @@ print(grade.count("A"))
 
 #Q.4: write a program to store the above values in a list & 
 #     sort the from "A" to "D".
-list = ["C", "D", "A", "A", "B", "B", "A",]
-list.sort()
-print(list)
+grade_list = ["C", "D", "A", "A", "B", "B", "A",]
+grade_list.sort()
+print(grade_list)
