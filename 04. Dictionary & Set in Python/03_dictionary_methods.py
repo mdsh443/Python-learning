@@ -4,7 +4,7 @@
 # .get()
 # .update()
 
-# method 1: .keys():
+# method 1: .keys():================
 print("\nStart of this program\n")
 
 student = {
@@ -23,14 +23,14 @@ print(len(list(student.keys())))   # output list length
 
 print("\nEnd of this program\n")
 
-# method 2: .values():
+# method 2: .values():=================
 print(student.values()) 
 print(list(student.values()))       # amra dictionary er moddhe list store korte pari
 print(len(list(student.values())))  # abar list er moddheo dictionary store korte pari 
 
 print("\nEnd of this program\n")
 
-# method 2: .values():
+# method 3: .items():
 #print(student.items())    # dictionary er key, value ke ekta tuple hishebe print kore
 print(list(student.items()))    # now output ta ekta list list a converted       
 pairs = list((student.items())) 
@@ -40,7 +40,7 @@ print(pairs[2])
 
 print("\nEnd of this program\n")
 
-# method 2: .get():
+# method 3: .get():
 print(student["name"])
 print(student.get("name"))
 
@@ -59,6 +59,7 @@ fish = {
 }
 
 print(fish)
+# method 4: .get():================
 #new_dict = {"cook" : "ilish"}
 #fish.update(new_dict)
 fish.update({"cook" : "ilish", "dinner": "tonight", "time" : 8.00})

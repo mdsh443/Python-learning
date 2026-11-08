@@ -1,4 +1,5 @@
 # Set is the collection of unordered items.
+# set is mutable but the elements of set are immutable.
 # Each element in the set must be unique and immutable.
 # boolean, integer, float, string, tuple ===> immutable.
 # list, dictionary ===> mutable.
