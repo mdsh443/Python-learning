@@ -34,3 +34,11 @@ print(null_dict)
 
 print("\nEnd of the program\n")
 
+#Duplicate keys overwrite earlier values.
+# device = {
+    # "device_name": "Router1", 
+#     "device_name": "Switch1",
+# }
+# print(device)
+# output => {'device_name': 'Switch1'}
+
