@@ -26,7 +26,7 @@ print("\nEnd of the program\n")
 num = {200, 2, 3, "newaz", "rinthy", "muadib", False, 12.111}
 num.add("joshim")
 num.add((99, 23, 55, "baba_yaga")) # tuple can be set element bcz it is immutable
-# num.add({20, 1222, 34}) # list can not a list element bcz it is mutable
+# num.add({20, 1222, 34}) # list can not be a set element bcz it is mutable
 num.remove(200)
 num.remove("rinthy")
 #num.remove(10.111) #this will give an error because 10.111 is not an element of this set
