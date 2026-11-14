@@ -12,6 +12,21 @@ print(p)
 
 
 
-n_list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
-while n_list <= 100:
-    print(n_list)
+# Q.5: Odd numbers
+
+# Write a while loop that produces:
+# 1
+# 3
+# 5
+# 7
+# 9
+# All odd numbers printed
+
+# Answer:
+
+num = 1
+while num <= 10:
+    print(num)
+    num += 2
+
+print("All odd numbers printed")
